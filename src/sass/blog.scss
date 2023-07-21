@@ -1,0 +1,98 @@
+.blog {
+  height: 147px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  &__logo {
+    width: 270px;
+    padding-right: 140px;
+  }
+}
+.blog__wrapper {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  padding: 70px 50px 0 70px;
+  column-gap: 50px;
+  &__box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &__item {
+    margin-bottom: 30px;
+    &__title {
+      font-size: 30px;
+      color: #000;
+      padding-bottom: 10px;
+    }
+    &__subtitle {
+      font-size: 20px;
+      color: #000;
+      padding-bottom: 10px;
+    }
+    &__text {
+      font-size: 15px;
+    }
+    &__photo {
+      padding-top: 10px;
+      padding-bottom: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+    &__span {
+      margin-right: 17px;
+    }
+  }
+  &__second {
+    &__form {
+      width: 320px;
+      background-color: yellow;
+      height: 60px;
+      background-color: rgb(244, 241, 241);
+      border-radius: 8px;
+    }
+    &__button {
+      margin-left: 10px;
+      height: 60px;
+      width: 250px;
+      background-color: rgb(244, 241, 241);
+      border: none;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+    &__btn {
+      border: none;
+    }
+    &__ul {
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-bottom: 25px;
+      &_list {
+        color: #a0a7ad;
+        font-size: 16px;
+      }
+    }
+    &__text {
+      padding-top: 20px;
+      color: #000;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "Lato", sans-serif;
+      padding-bottom: 30px;
+    }
+    &__descr {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      column-gap: 15px;
+      padding-bottom: 20px;
+
+      img {
+        width: 100%;
+      }
+      &__text {
+        font-size: 14px;
+      }
+    }
+  }
+}
